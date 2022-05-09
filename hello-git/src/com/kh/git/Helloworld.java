@@ -2,6 +2,7 @@ package com.kh.git;
 
 import com.kh.animal.Cat;
 import com.kh.animal.Dog;
+import com.kh.animal.Snake;
 
 /**
  * SCM Software Configuration Management
@@ -26,6 +27,9 @@ public class Helloworld {
 		
 		Cat cat = new Cat();
 		cat.cry();
+		
+		Snake snake = new Snake();
+		snake.move();
 	}
 
 }
