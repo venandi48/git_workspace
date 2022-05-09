@@ -17,4 +17,5 @@ public class Cow {
 	public void run() {
 		System.out.println("소가 달립니다.");
 	}
+	
 }
